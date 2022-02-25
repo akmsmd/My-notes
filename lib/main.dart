@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:my_notesss/login_view.dart';
 import 'package:my_notesss/register_view.dart';
 import 'firebase_options.dart';
 
@@ -13,7 +14,7 @@ void main() {
     theme: ThemeData(
       primarySwatch: Colors.blue,
     ),
-    home: const HomePage(),
+    home: const LoginView(),
   ));
 }
 class HomePage extends StatelessWidget {
